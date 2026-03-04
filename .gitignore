@@ -1,0 +1,11 @@
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Pastas e arquivos do sistema
+.DS_Store
+node_modules/
+
+config.js
