@@ -11,7 +11,6 @@ async function gerarCodigo() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            // 🟢 MUDANÇA AQUI: usando a chave do config.js
             "Authorization": "Bearer " + CONFIG.GROQ_API_KEY
         },
         body: JSON.stringify({
